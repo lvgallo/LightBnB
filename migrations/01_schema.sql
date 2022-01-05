@@ -14,7 +14,7 @@ CREATE TABLE properties (
   id SERIAL PRIMARY KEY NOT NULL,
   title TEXT NOT NULL,
   description TEXT,
-  cost_per_night INTEGER NOT NULL DEFAULT 0,
+  cost_per_night MONEY NOT NULL DEFAULT 0,
   parking_spaces INTEGER NOT NULL DEFAULT 0,
   number_of_bathrooms INTEGER NOT NULL DEFAULT 0,
   number_of_bedrooms INTEGER NOT NULL DEFAULT 0,
